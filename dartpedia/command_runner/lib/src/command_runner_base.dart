@@ -8,7 +8,7 @@ import 'exceptions.dart';
 
 
 class CommandRunner {
-  CommandRunner({this. onOutput, this.onError});
+  CommandRunner({this.onOutput, this.onError});
 
   final Map<String, Command> _commands = <String, Command>{};
 
@@ -38,6 +38,7 @@ class CommandRunner {
       }
     }
   }
+
 
 
   void addCommand(Command command) {
