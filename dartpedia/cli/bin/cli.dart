@@ -1,5 +1,4 @@
 import 'package:command_runner/command_runner.dart';
-import 'package:';
 
 const version = '0.0.1';
 

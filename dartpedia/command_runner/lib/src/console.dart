@@ -13,9 +13,8 @@ Future<void> _delayedPrint(String text, {int duration = 0}){
   return Future<void>.delayed(
     Duration(milliseconds: duration),
     () => stdout.write(text)
-  );
+  );  
 }
-
 enum ConsoleColor {
     /// Sky blue - #b8eafe
   lightBlue(184, 234, 254),
