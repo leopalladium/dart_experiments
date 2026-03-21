@@ -1,0 +1,17 @@
+name: dartpedia
+description: Dart workspace for CLI and Wikipedia packages.
+publish_to: none
+
+resolution: workspace
+
+environment:
+  sdk: ^3.8.1
+
+workspace:
+  - cli
+  - command_runner
+  - wikipedia
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0

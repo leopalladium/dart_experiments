@@ -1,14 +1,11 @@
-name: _
+name: wikipedia
+description: A Wikipedia library for Dart.
 publish_to: none
 
 resolution: workspace
 
 environment:
-  sdk: ^3.8.1 # IMPORTANT: Adjust this to match your Dart SDK version or a compatible range
-workspace:
-  - cli
-  - command_runner
-  - wikipedia
+  sdk: ^3.8.1
 
 dev_dependencies:
   lints: ^5.0.0
