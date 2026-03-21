@@ -5,7 +5,7 @@ version: 1.0.0
 resolution: workspace
 environment:
   sdk: ^3.10.2
-
+publish_to: none
 # Add regular dependencies here.
 dependencies:
   path: ^1.9.0
